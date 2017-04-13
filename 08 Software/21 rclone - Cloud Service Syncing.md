@@ -1,7 +1,5 @@
-<h1>rclone - Cloud Service Syncing</h1>
-
-        
-        <h1>How to Install and Use rclone to Sync Files With Cloud Services</h1><br>
+<h1>rclone - Cloud Service Syncing</h1>     
+<h1>How to Install and Use rclone to Sync Files With Cloud Services</h1><br>
 You can use rclone with many cloud services for uploading, downloading, and syncing your files. <br>
 <br>
 Rclone supports the following cloud services:<br>
@@ -38,7 +36,7 @@ Delete the old files<br>
 <br>
 You&#x27;re done installing. Go ahead and setup your cloud service:<br>
 <br>
-[h2]Amazon Cloud Drive (ACD)[h2]<br>
+<h2>Amazon Cloud Drive (ACD)</h2><br>
 <br>
 Configure rclone<br>
 <br>
