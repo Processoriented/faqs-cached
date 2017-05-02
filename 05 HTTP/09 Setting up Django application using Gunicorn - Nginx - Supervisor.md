@@ -5,7 +5,7 @@ There have been several very good detailed tutorials written on the how to set u
 
 So I'll not spend much time rehashing what those tutorials tell you, but sharing the details of what it took to get it up and running here:
 
-Most of the tutorials refer to PostgreSQL setups, but [MySQL]('../02 Installable software/24 MySQL - how to install and use.md') is already available with your account and supported by Django, and there is sqlite which is included in the base python installation. I chose the later as my database already existed in sqlite.
+Most of the tutorials refer to PostgreSQL setups, but [MySQL](../02 Installable software/24 MySQL - how to install and use.md) is already available with your account and supported by Django, and there is sqlite which is included in the base python installation. I chose the later as my database already existed in sqlite.
 
 The biggest challenge was on the nginx side. All the tutorials reference to setting up a "server"/virtual host and making changes within /etc/nginx/sites-available and /etc/nginx/sites-enabled. Those are not accessible for change within a slot. Therefore leverageing location {} was the only option that would work (3+ days of trial and error to find it).
 
