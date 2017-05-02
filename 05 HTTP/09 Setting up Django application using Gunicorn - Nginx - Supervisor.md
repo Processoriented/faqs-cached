@@ -43,7 +43,7 @@ And populate it with this. Edit in your info:
 ```nginx
 location /<app-name>/ {
 
-# an HTTP header important enough to have its own [`Wikipedia entry`](http://en.wikipedia.org/wiki/X-Forwarded-For):
+# an HTTP header important enough to have its own Wikipedia entry (link below):
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
 # pass the Host: header from the client right along so redirects
@@ -58,6 +58,7 @@ proxy_pass http://<internal-ip-address:port>;
 
 }
 ```
+[Wikipedia entry for X-Forwarded-For](http://en.wikipedia.org/wiki/X-Forwarded-For)
 
 That second file was the key; When you go to your browser and type in:
 
