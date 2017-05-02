@@ -95,10 +95,9 @@ My next step is to work on creating a script that will handle automating alot of
 Good luck!!!
 
 ### References
-[Django](https://www.djangoproject.com/)
-[Gunicorn](http://gunicorn.org/)
-[Nginx](http://nginx.org/)
-[Supervisor](http://supervisord.org/)
-[Virtualenv](http://www.virtualenv.org/en/latest/)
-[Setup Tutorial Reference](http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/)
-
+- [Django](https://www.djangoproject.com/)
+- [Gunicorn](http://gunicorn.org/)
+- [Nginx](http://nginx.org/)
+- [Supervisor](http://supervisord.org/)
+- [Virtualenv](http://www.virtualenv.org/en/latest/)
+- [Setup Tutorial Reference](http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/)
