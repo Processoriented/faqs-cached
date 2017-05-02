@@ -30,7 +30,7 @@ alias /media/DiskID/home/username/www/$host/public_html/webapps/static/;
 }
 ```
 
-### `<app-name>`-app.conf
+### \<app-name\>-app.conf
 
 Create a file called, where *YourApp* is the name of the application:
 
